@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "avalicacao2"
+version = "0.1.0"
+description = ""
+authors = ["DuarteVonFaul <duarteriograndense@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+numpy = "^2.2.2"
+matplotlib = "^3.10.0"
+seaborn = "^0.13.2"
+scikit-learn = "^1.6.1"
+
+
+[tool.poetry.group.dev.dependencies]
+jupyter = "^1.1.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
